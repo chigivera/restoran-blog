@@ -1,0 +1,80 @@
+{
+  "users": [
+    {
+      "user_id": "1",
+      "username": "john_doe",
+      "email": "john@example.com",
+      "password": "hashed_password_1",
+      "role": "author",
+      "bio": "John is a tech enthusiast and blogger.",
+      "created_at": "2023-01-01T12:00:00Z",
+      "id": "2ab1"
+    },
+    {
+      "user_id": "2",
+      "username": "jane_smith",
+      "email": "jane@example.com",
+      "password": "hashed_password_2",
+      "role": "reader",
+      "bio": "Jane loves reading and commenting on tech articles.",
+      "created_at": "2023-02-01T15:30:00Z",
+      "id": "f9cc"
+    },
+    {
+      "user_id": "3",
+      "username": "alice_jones",
+      "email": "alice@example.com",
+      "password": "hashed_password_3",
+      "role": "author",
+      "bio": "Alice is a software developer and part-time blogger.",
+      "created_at": "2023-03-10T09:20:00Z",
+      "id": "7368"
+    },
+    {
+      "id": "54a1",
+      "username": "john@example.com",
+      "password": "hashed_password_1"
+    }
+  ],
+  "articles": [
+    {
+      "id": "7e46",
+      "title": "test",
+      "category": "1",
+      "content": "<div><p>Hello, World!</p></div>",
+      "imageUrl": "https://res.cloudinary.com/dz9rgu2nb/image/upload/v1719841393/xxk4rslhbdudabarmwgu.webp"
+    },
+    {
+      "id": "f85a",
+      "title": "test 1 ",
+      "category_id": "2",
+      "file": {
+        "0": {}
+      },
+      "content": "<div><p>Hello, World!</p></div>",
+      "imageUrl": "https://res.cloudinary.com/dz9rgu2nb/image/upload/v1719842297/uhpkwy42ioebab7hwcj5.webp",
+      "created_at": "2024-07-01T13:58:17.570Z",
+      "updated_at": "2024-07-01T13:58:17.570Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Programming",
+      "description": "Articles about various programming languages and techniques.",
+      "created_at": "2023-01-01T12:00:00Z"
+    },
+    {
+      "id": "2",
+      "name": "Web Development",
+      "description": "Articles about web development frameworks and tools.",
+      "created_at": "2023-01-01T12:00:00Z"
+    },
+    {
+      "id": "3",
+      "name": "Artificial Intelligence",
+      "description": "Articles about AI and machine learning.",
+      "created_at": "2023-01-01T12:00:00Z"
+    }
+  ]
+}
